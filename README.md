@@ -1,16 +1,15 @@
 
 <p align="center"><img width="800px" src="https://i.ibb.co/LzRwxp4/Frame.jpg"></p>
 <p align="center">
-<a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-community-material-theme#review-details"><img src="https://vsmarketplacebadge.apphb.com/rating-star/Equinusocio.vsc-material-theme.svg?style=for-the-badge&colorA=FBBD30&colorB=F2AA08"/></a> <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-community-material-theme"><img src="https://vsmarketplacebadge.apphb.com/downloads-short/Equinusocio.vsc-material-theme.svg?style=for-the-badge&colorA=5DDB61&colorB=4BC74F&label=DOWNLOADS"/></a> <a href="https://a.paddle.com/v2/click/16413/37697?link=1227"><img src="https://img.shields.io/badge/Supported%20by-VSCode%20Power%20User%20Course%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-community-material-theme#review-details"><img src="https://vsmarketplacebadge.apphb.com/rating-star/Equinusocio.vsc-community-material-theme.svg?style=for-the-badge&colorA=FBBD30&colorB=F2AA08"/></a> <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-community-material-theme"><img src="https://vsmarketplacebadge.apphb.com/downloads-short/Equinusocio.vsc-community-material-theme.svg?style=for-the-badge&colorA=5DDB61&colorB=4BC74F&label=DOWNLOADS"/></a> <a href="https://a.paddle.com/v2/click/16413/37697?link=1227"><img src="https://img.shields.io/badge/Supported%20by-VSCode%20Power%20User%20Course%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/></a>
 </p>
 
 
 
-The most epic theme meets Visual Studio Code. You can help by reporting issues [here](https://github.com/equinusocio/vsc-material-theme/issues).
+The most epic theme meets Visual Studio Code. You can help by reporting issues [here](https://github.com/material-theme/vsc-community-material-theme/issues).
 
 - [Getting started](#getting-started)
   - [Installation](#installation)
-    - [Packaged VSIX Extension](#packaged-vsix-extension)
       - [GitHub Repository Clone](#github-repository-clone)
 - [Activate theme](#activate-theme)
 - [Set the accent color](#set-the-accent-color)
@@ -38,17 +37,7 @@ Paste the following command and press `Enter`:
 ext install material theme
 ```
 
-And pick the one by **Mattia Astorino** (me) as author.
-
-#### Packaged VSIX Extension
-
-[Download the latest .vsix release](https://marketplace.visualstudio.com/_apis/public/gallery/publishers/Equinusocio/vsextensions/vsc-material-theme/latest/vspackage) file from the marketplace and install it from the command line
-
-```shell
-code --install-extension vsc-material-theme-*.*.*.vsix
-```
-
-or from within VS Code by launching *Quick Open* and running the *Install from VSIX...* command.
+And pick the one by **Mattia Astorino (Equinusocio)** (me) as author.
 
 ##### GitHub Repository Clone
 
@@ -59,10 +48,10 @@ Depending on your platform it is located in the following folders:
   - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> **macOs** `~/.vscode/extensions`
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> **Windows** `%USERPROFILE%\.vscode\extensions`
 
-Clone the Material Theme repository as `Equinusocio.vsc-material-theme`:
+Clone the Material Theme repository as `Equinusocio.vsc-community-material-theme`:
 
 ```shell
-git clone https://github.com/equinusocio/vsc-material-theme.git Equinusocio.vsc-material-theme
+git clone https://github.com/material-theme/vsc-community-material-theme.git Equinusocio.vsc-community-material-theme
 ```
 
 
@@ -161,10 +150,10 @@ Thanks to the Material Theme community you can use is with other softwares, here
 - [Bear Notes](https://github.com/r3volution11/material-theme-bear-notes) (by [@r3volution11](https://github.com/r3volution11))
 
 ## Other resources
-- **AppIcon:** [Download](https://github.com/equinusocio/vsc-material-theme/files/989048/vsc-material-theme-appicon.zip) the official Material Theme app icon for Visual Studio code
+- **AppIcon:** [Download](https://github.com/material-theme/vsc-material-theme/files/989048/vsc-material-theme-appicon.zip) the official Material Theme app icon for Visual Studio code
 
 ---
 
-<p align="center"> <img src="https://equinusocio.gallerycdn.vsassets.io/extensions/equinusocio/vsc-material-theme/0.0.14/1494970083238/Microsoft.VisualStudio.Services.Icons.Default" width=16 height=16/> Copyright &copy; 2019 Mattia Astorino & Alessio Occhipinti</p>
+<p align="center"> <img src="https://equinusocio.gallerycdn.vsassets.io/extensions/material-theme/vsc-material-theme/0.0.14/1494970083238/Microsoft.VisualStudio.Services.Icons.Default" width=16 height=16/> Copyright &copy; 2019 Mattia Astorino & Alessio Occhipinti</p>
 
 <p align="center"><a href="http://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-5E81AC.svg?style=flat-square"/></a></p>
