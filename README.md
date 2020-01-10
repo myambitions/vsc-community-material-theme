@@ -12,13 +12,11 @@ The most epic theme meets Visual Studio Code. You can help by reporting issues [
   - [Installation](#installation)
       - [GitHub Repository Clone](#github-repository-clone)
 - [Activate theme](#activate-theme)
-- [Set the accent color](#set-the-accent-color)
 - [Override theme colors](#override-theme-colors)
   - [Color Scheme override](#color-scheme-override)
 - [Recommended settings for a better experience](#recommended-settings-for-a-better-experience)
 - [Official Portings](#official-portings)
 - [Other resources](#other-resources)
-
 
 ## Getting started
 
@@ -54,7 +52,6 @@ Clone the Material Theme repository as `Equinusocio.vsc-community-material-theme
 git clone https://github.com/material-theme/vsc-community-material-theme.git Equinusocio.vsc-community-material-theme
 ```
 
-
 ## Activate theme
 
 Launch *Quick Open*:
@@ -63,20 +60,10 @@ Launch *Quick Open*:
   - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
-Type `theme`, choose `Preferences: Color Theme`, and select one of the Material Theme variants from the list. After activation, the theme will set the correct icon theme based on your active theme variant.
-
-## Set the accent color
-
-Launch *Quick Open*:
-
-  - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl + Shift + P`
-  - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
-  - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
-
-Type `material theme`, choose `Material Theme: Set accent color`, and pick one color from the list.
-
+Type `theme`, choose `Preferences: Color Theme`, and select one of the Community Material Theme variants from the list. After activation, the theme will set the correct icon theme based on your active theme variant.
 
 ## Override theme colors
+
 You can override the Material Theme UI and schemes colors by adding these theme-specific settings to your configuration. For advanced customisation please check the [relative section on the VS Code documentation](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme).
 
 ### Color Scheme override
@@ -84,7 +71,7 @@ You can override the Material Theme UI and schemes colors by adding these theme-
 **Basic example**
 ```js
 "editor.tokenColorCustomizations": {
-    "[Material Theme]": {
+    "[Community Material Theme]": {
         "comments": "#229977"
     }
 },
@@ -94,7 +81,7 @@ You can override the Material Theme UI and schemes colors by adding these theme-
 
 ```js
 "editor.tokenColorCustomizations": {
-    "[Material Theme VARIANT]": {
+    "[Community Material Theme VARIANT]": {
         "textMateRules": [
             {
                 "scope": [
@@ -112,7 +99,7 @@ You can override the Material Theme UI and schemes colors by adding these theme-
 },
 
 "workbench.colorCustomizations": {
-	"[Material Theme VARIANT]": {
+	"[Community Material Theme VARIANT]": {
 		"sideBar.background": "#ff0000",
 	}
 },
