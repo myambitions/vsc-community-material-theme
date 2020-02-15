@@ -32,7 +32,8 @@
     "Themes"
   ],
   "extensionKind": [
-    "ui"
+    "ui",
+    "workspace"
   ],
   "contributes": {
     "themes": [
